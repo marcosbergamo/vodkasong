@@ -1,0 +1,29 @@
+{
+  "name": "vodkasong",
+  "version": "1.0.0",
+  "description": "Marcos Bérgamo's personal blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcosbergamo/vodkasong.git"
+  },
+  "keywords": [
+    "blog",
+    "vodka",
+    "song"
+  ],
+  "author": "Marcos Bérgamo <marcos@thedon.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosbergamo/vodkasong/issues"
+  },
+  "homepage": "https://github.com/marcosbergamo/vodkasong",
+  "dependencies": {
+    "handlebars": "^3.0.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-templates": "^0.6.0"
+  }
+}
